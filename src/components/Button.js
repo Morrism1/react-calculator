@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 
 export default function Button({ name }) {
   return (
-    <div>
+    <button type="button">
       {name}
-    </div>
+    </button>
   );
 }
 
