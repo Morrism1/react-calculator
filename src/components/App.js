@@ -5,10 +5,10 @@ import '../styles/App.css';
 
 function App() {
   return (
-    <>
+    <table className="main-box" cellSpacing="0" cellPadding="0">
       <Display />
       <ButtonPanel />
-    </>
+    </table>
   );
 }
 
