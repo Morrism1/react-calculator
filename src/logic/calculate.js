@@ -4,16 +4,16 @@ const calculate = (data, buttonName) => {
   let { total, next, operation } = data;
 
   if (buttonName === 'AC') {
-    total = null;
+    total = 0;
     next = null;
     operation = null;
   }
 
   if (buttonName === '+/-') {
     if (next) {
-      next *= -1;
+      next = operate(next, -1, 'X');
     } else {
-      total *= -1;
+      total = operate(total, -1, 'X');
     }
   }
 
@@ -55,22 +55,17 @@ const calculate = (data, buttonName) => {
     }
   }
 
-  if (buttonName === ('+' || '-' || 'X' || '÷')) {
-    if (!total) {
-      total = 0;
+  if (['+', '-', 'X', '÷'].includes(buttonName)) {
+    if (total && next === null) {
+      operation = buttonName;
     }
-    if (!total && !next && !operation) {
-      total = operate(total, next, operation);
-      next = null;
-    }
-    operation = buttonName;
   }
 
   if (buttonName === '=') {
-    if (!operation) {
+    if (total && next) {
       total = operate(total, next, operation);
-      next = '';
-      operation = '';
+      next = null;
+      operation = null;
     }
   }
 
