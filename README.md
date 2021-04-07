@@ -54,9 +54,7 @@ Give a ⭐️ if you like this project!
 
 - [Microverse](https://www.microverse.org/)
 
-- [Unsplash](https://www.unsplash.com)
-
-- [Pexels](https://pexels.com)
+- [Yudiz Solutions](https://codepen.io/yudizsolutions/pen/poReVdw) For the Design.👌
 
 ## 📝 License
 
