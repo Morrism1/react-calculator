@@ -2,6 +2,8 @@
 
 > React Calculator is a simple react calculator project. It consists of 4 milestones from Creating the project with CRA(Create-React-App), setting up linters, building the App and deploying it to Heroku.
 
+![screely-1617861519364](https://user-images.githubusercontent.com/46853433/113975787-5701d980-9840-11eb-96d3-1a9fb8e76216.png)
+
 ## Built With
 
 - Javascript
@@ -44,7 +46,7 @@ Accessing the application requires a running server. This can easily be achieved
 
 ## 🤝 Contributing
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Morrism1/react-calculator/issues).
 
 ## Show your support
 
@@ -54,9 +56,7 @@ Give a ⭐️ if you like this project!
 
 - [Microverse](https://www.microverse.org/)
 
-- [Unsplash](https://www.unsplash.com)
-
-- [Pexels](https://pexels.com)
+- [Yudiz Solutions](https://codepen.io/yudizsolutions/pen/poReVdw) For the Design.👌
 
 ## 📝 License
 

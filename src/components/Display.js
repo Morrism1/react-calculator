@@ -2,7 +2,16 @@ import PropTypes from 'prop-types';
 
 export default function Display({ result }) {
   return (
-    <div>{result}</div>
+    <thead>
+      <tr>
+        <th colSpan={5}>
+          <div className="calc-display" id="display">
+            {result}
+          </div>
+        </th>
+      </tr>
+    </thead>
+
   );
 }
 
