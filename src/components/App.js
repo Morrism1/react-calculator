@@ -10,13 +10,15 @@ class App extends Component {
     super(props);
 
     this.state = {
-      total: 0,
+      total: null,
       next: null,
       operation: null,
     };
+
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick(buttonName) {
+  handleClick = (buttonName) => {
     const result = calculate(this.state, buttonName);
     this.setState(result);
   }
