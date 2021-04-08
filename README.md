@@ -2,6 +2,8 @@
 
 > React Calculator is a simple react calculator project. It consists of 4 milestones from Creating the project with CRA(Create-React-App), setting up linters, building the App and deploying it to Heroku.
 
+![screely-1617861519364](https://user-images.githubusercontent.com/46853433/113975787-5701d980-9840-11eb-96d3-1a9fb8e76216.png)
+
 ## Built With
 
 - Javascript
