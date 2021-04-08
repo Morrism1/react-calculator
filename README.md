@@ -44,7 +44,7 @@ Accessing the application requires a running server. This can easily be achieved
 
 ## 🤝 Contributing
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Morrism1/react-calculator/issues).
 
 ## Show your support
 
