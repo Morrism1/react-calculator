@@ -63,7 +63,8 @@ button {
 
 .light-mode button:hover,
 .light-mode button:focus {
-  box-shadow: inset 4px 4px 10px 0 rgba(0, 0, 0, 0.08),
+  box-shadow:
+    inset 4px 4px 10px 0 rgba(0, 0, 0, 0.08),
     inset -4px -4px 10px 0 #fff;
 }
 
@@ -99,7 +100,8 @@ button.equal {
 
 .light-mode button.dark-btn:hover,
 .light-mode button.dark-btn:focus {
-  box-shadow: inset 4px 4px 10px 0 rgba(0, 0, 0, 0.08),
+  box-shadow:
+    inset 4px 4px 10px 0 rgba(0, 0, 0, 0.08),
     inset -4px -4px 10px 0 #dedede;
 }
 
@@ -110,19 +112,23 @@ button.blue-btn {
 
 button.blue-btn:hover,
 button.blue-btn:focus {
-  box-shadow: inset 4px 4px 10px 0 rgba(0, 0, 0, 0.08),
+  box-shadow:
+    inset 4px 4px 10px 0 rgba(0, 0, 0, 0.08),
     inset -4px -4px 10px 0 #3471cc;
 }
 
 button.equal:hover,
 button.equal:focus {
-  box-shadow: inset 4px 4px 10px 0 rgba(0, 0, 0, 0.08),
+  box-shadow:
+    inset 4px 4px 10px 0 rgba(0, 0, 0, 0.08),
     inset -4px -4px 10px 0 #ffbd2e;
 }
 
 .light-mode .main-box {
   background-color: #f1f3f6;
-  box-shadow: -3px -3px 10px 0 #fff, 3px 3px 10px rgba(0, 0, 0, 0.08),
+  box-shadow:
+    -3px -3px 10px 0 #fff,
+    3px 3px 10px rgba(0, 0, 0, 0.08),
     inset 0 1px 3px rgba(0, 0, 0, 0.05);
   border: 12px solid #f1f3f6;
 }
