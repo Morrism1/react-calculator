@@ -6,9 +6,9 @@ import '../styles/App.css';
 import calculate from '../logic/calculate';
 
 const App = () => {
-  const [total, setTotal] = useState('');
-  const [next, setNext] = useState('');
-  const [operation, setOperation] = useState('');
+  const [total, setTotal] = useState(null);
+  const [next, setNext] = useState(null);
+  const [operation, setOperation] = useState(null);
 
   const handleClick = (buttonName) => {
     const result = calculate({ total, next, operation }, buttonName);
