@@ -25,6 +25,10 @@ To get a local copy of it and run it, follow these simple example steps.
 
 - Run `npm start` to start the development server.
 
+## Test
+
+- `npm run test`
+
 ### Usage
 
 Accessing the application requires a running server. This can easily be achieved from the project's root directory by running first `npm install` to install required dependencies and later `npm start` to start the server. The app will now be accessible at the following URL: `http://localhost:3000/`.
